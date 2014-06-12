@@ -43,6 +43,7 @@ function git_prompt_config()
   local Red="\[\033[0;31m\]"
   local Blue="\[\033[0;34m\]"
   local Cyan="\[\033[0;36m\]"
+  local Green="\[\e[32;1m\]"
 
   #Checking if root to change output
   _isroot=false
