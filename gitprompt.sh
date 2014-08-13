@@ -1,4 +1,5 @@
 #!/bin/sh
+EXITSTATUS="$?"
 
 function async_run()
 {
