@@ -1,5 +1,8 @@
 #!/bin/sh
-EXITSTATUS="$?"
+function exitStatus {
+  EXITSTATUS="$?"
+}
+PROMPT_COMMAND=exitStatus
 
 function async_run()
 {
